@@ -1,0 +1,34 @@
+# Ignore Unity cache and build artifacts for both projects
+/Drift Space/Library/
+/Drift Space/Logs/
+/Drift Space/Temp/
+/Drift Space/Build/
+/Drift Space/obj/
+/Drift Space/bin/
+/Play Test/Library/
+/Play Test/Logs/
+/Play Test/Temp/
+/Play Test/Build/
+/Play Test/obj/
+/Play Test/bin/
+
+# Project files
+*.csproj
+*.sln
+
+# IDE files
+.vsconfig
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Misc
+.env
+*.log

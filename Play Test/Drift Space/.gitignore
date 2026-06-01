@@ -1,0 +1,31 @@
+# Unity-spezifisch
+/Library/
+/Logs/
+/Temp/
+/obj/
+/bin/
+*.csproj
+*.sln
+
+# Build-Dateien
+/Build/
+*.exe
+*.dll
+*.pdb
+
+# IDE
+.vsconfig
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Sonstige
+.env
+*.log
