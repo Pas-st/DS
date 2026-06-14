@@ -5,31 +5,31 @@ You Complete the level by going through a black hole, the faster you complete th
 Completed:
 
 v1.0
-* Idee für das spiel entwerfen
-* Erste Entwicklung des Spiels, mit einigen Funktionen schon intrigiert
+* Come up with an idea for the game
+* First development of the game, with some features already integrated
 
 v1.1
-* Erstellen des Menus
+* Create the menu
 
 v1.2
-* Playtest (ausgewählte Kontakte)
-* Erste fixes
+* Playtest (selected contacts)
+* First fixes
 
 v1.4
-* Weiterer öffentlicherer Playtest (alle Kontakte)
-* Tutorial  Modi
-* Das ziel überarbeiten (schwarzes Loch)
+* Further, more public playtest (all contacts)
+* Tutorial modes
+* Revise the goal (black hole)
 
 v1.5
-* Hintergrund geräusche
-* UI verbesserungen
-* Animationen
+* Background noises
+* UI improvements
+* Animations
 
-Geplant:
+Planned:
 
 v1.8
-* Tutorial per Dialog
-* Storry überlegen
+* Tutorial via dialogue
+* Think over the story
 
 v2.0
-* Public Playtest
+* Public playtest
