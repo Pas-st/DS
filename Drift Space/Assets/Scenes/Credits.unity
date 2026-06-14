@@ -240,8 +240,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -64}
-  m_SizeDelta: {x: 1500, y: 748.92}
+  m_AnchoredPosition: {x: 0, y: -73}
+  m_SizeDelta: {x: 1500, y: 804.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &505175112
 MonoBehaviour:
@@ -263,24 +263,27 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'A game by Pascal
+  m_text: 'A game by Me
+
+    Inspiriert by The Farmer was replaced
 
 
-    Programming, UI/UX, Game Design, Art & Testing
+    Programming,
+    UI/UX, Game Design, Art & Testing, Music
 
-    by
-    Pascal
+    by Me
 
 
-    Additional UX & Game Design Contributions
+    Additional UX & Game
+    Design Contributions
 
     by Dustin
 
 
-    Everywhere
-    a little fixing
+    Everywhere a little fixing
 
-    by ChatGPT
+    by
+    ChatGPT
 
 
     Playtesting & Feedback
@@ -758,8 +761,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000061035156}
-  m_SizeDelta: {x: -400, y: -200.00008}
+  m_AnchoredPosition: {x: 0, y: -20.300049}
+  m_SizeDelta: {x: -400, y: -159.40005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1734924005
 MonoBehaviour:
