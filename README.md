@@ -3,6 +3,7 @@ I this Game you’re going to make a scratch like building, but every block that
 You Complete the level by going through a black hole, the faster you complete the better your time.
 
 Completed:
+
 v1.0
 * Idee für das spiel entwerfen
 * Erste Entwicklung des Spiels, mit einigen Funktionen schon intrigiert
@@ -25,6 +26,7 @@ v1.5
 * Animationen
 
 Geplant:
+
 v1.8
 * Tutorial per Dialog
 * Storry überlegen
