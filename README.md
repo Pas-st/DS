@@ -30,9 +30,15 @@ v1.5
 
 Planned:
 
+after v1.5
+* Adding rivals
+
 v1.8
 * Tutorial via dialogue
-* Think over the story
+* Think over the game story
+* Leaderboard
 
 v2.0
+* More closed doors
+* Enlarge the game map
 * Public playtest
