@@ -32,6 +32,7 @@ Planned:
 
 after v1.5
 * Adding rivals
+* Adding Health for the Player (so it dies when it touches the walls)
 
 v1.8
 * Tutorial via dialogue
