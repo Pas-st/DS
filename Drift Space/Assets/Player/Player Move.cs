@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Collider2D))]
 public class Move : MonoBehaviour
 {
-    private bool levelComplete = false;
+    public bool levelComplete = false;
     public GameObject finish;
     public GameObject finishCanvas;
     public bool goAfterFinishToMenu = true;
