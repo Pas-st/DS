@@ -33,6 +33,8 @@ public class Move : MonoBehaviour
     private List<Vector2> hitPoints = new List<Vector2>();
     private LineRenderer lineRenderer;
 
+    public int currentHealth = 100;
+
 
     void Awake()
     {
@@ -219,6 +221,10 @@ public class Move : MonoBehaviour
             Vector2 hitPoint = collision.GetContact(0).point;
 
             hitPoints.Add(hitPoint);
+            if (!levelComplete)
+            {
+                currentHealth -= currentSpeed > 0 ? Mathf.RoundToInt(currentSpeed) : 1;
+            }
         }
     }
 
