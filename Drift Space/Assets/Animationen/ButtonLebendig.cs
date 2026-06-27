@@ -10,7 +10,7 @@ public class ButtonLebendig : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     private Quaternion startRotation;
 
     [Header("Wackeln")]
-    public float wackelStaerke = 12f;
+    public float wackelStaerke = 2f;
     public float wackelDauer = 0.25f;
 
     [Header("Atmen")]

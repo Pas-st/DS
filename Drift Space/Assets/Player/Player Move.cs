@@ -17,6 +17,7 @@ public class Move : MonoBehaviour
     public float thrust = 2f;
     public float maxSpeed = 15f;
     public float currentSpeed = 0f;
+    public float actualSpeed = 0f;
     public float rotationSpeed = 200f;
 
 
@@ -34,6 +35,8 @@ public class Move : MonoBehaviour
     private LineRenderer lineRenderer;
 
     public int currentHealth = 100;
+
+    public bool useKeyInput = true;
 
 
     void Awake()
@@ -172,8 +175,10 @@ public class Move : MonoBehaviour
             }
             return;
         }
-
-        HandleInput();
+        if (useKeyInput)
+            HandleInput();
+        
+        actualSpeed = rb.linearVelocity.magnitude;
     }
 
     void HandleInput()
@@ -223,7 +228,7 @@ public class Move : MonoBehaviour
             hitPoints.Add(hitPoint);
             if (!levelComplete)
             {
-                currentHealth -= currentSpeed > 0 ? Mathf.RoundToInt(currentSpeed) : 1;
+                currentHealth -= actualSpeed > 0 ? Mathf.RoundToInt(actualSpeed) : 1;
             }
         }
     }

@@ -1728,6 +1728,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewSlider: 1
   soundVolumeSlider: 1
+  showSpeedrunTimer: 1
+  showPlayerHealth: 1
+  showBlockCounter: 1
+  showPlayerSpeed: 1
+  targetDisplay: 0
 --- !u!82 &1925325385
 AudioSource:
   m_ObjectHideFlags: 0

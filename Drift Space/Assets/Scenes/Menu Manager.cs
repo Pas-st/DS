@@ -28,10 +28,14 @@ public class MainMenu : MonoBehaviour
         StartCoroutine(LoadSceneWithSound(1, playSound));
     }
 
-    public void PlayWAD(int display = 0)
+    public void PlayWAD()
     {
-        GameSettings.Instance.targetDisplay = display;
         StartCoroutine(LoadSceneWithSound(2));
+    }
+
+    public void PlayBlock()
+    {
+        StartCoroutine(LoadSceneWithSound(6));
     }
 
     public void Settings()

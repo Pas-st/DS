@@ -45,7 +45,7 @@ public class Speedrun : MonoBehaviour
         }
 
         // Speed anzeigen
-        speedText.text = $"{playerMove.currentSpeed:F1} f";
+        speedText.text = $"{playerMove.actualSpeed:F1} f";
 
         // Health anzeigen
         healthText.text = $"{playerMove.currentHealth} HP";
